@@ -1,24 +1,15 @@
 ⚡ Smart ATS – AI-Powered Resume Evaluator
-
 📝 An intelligent Application Tracking System (ATS) simulator that helps you optimize your resume for job applications using Google’s Generative AI (Gemini-Pro).
 
-
-
-
-
-
 ✨ Features
-
 ✅ Upload your resume in PDF format
 ✅ Paste a job description for evaluation
 ✅ Get a Match Score (%) against ATS standards
 ✅ Highlighted list of Missing Keywords
 ✅ Smart Profile Summary & Suggestions
 
-📸 Demo Preview
-<p align="center"> <img src="https://user-images.githubusercontent.com/placeholder/demo.gif" alt="Smart ATS Demo" width="600"/> </p>
-🛠️ Tech Stack
 
+🛠️ Tech Stack
 Streamlit
  – UI & deployment
 
@@ -34,7 +25,9 @@ dotenv
 📂 Project Structure
 .
 ├── app.py              # Main Streamlit app
+
 ├── requirements.txt    # Dependencies
+
 ├── .env                # API Key configuration (ignored in Git)
 
 ⚙️ Installation & Setup
@@ -51,28 +44,20 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 4. Configure API Key
-
 Create a .env file in the project root:
-
 GOOGLE_API_KEY=your_google_api_key_here
 
-
-👉 Get your API key from Google MakerSuite
-.
+👉 Get your API key from Google MakerSuite.
 
 5. Run the app
 streamlit run app.py
 
 🎯 Usage Flow
-
 Paste your Job Description (JD).
-
 Upload your Resume (PDF only).
-
 Hit Submit.
 
 Get:
-
 📊 ATS Match %
 
 📌 Missing Keywords
@@ -81,30 +66,21 @@ Get:
 
 🚀 Roadmap
 
- Compare multiple resumes at once
-
- Export results as PDF / CSV reports
-
- Interactive charts & graphs for ATS scoring
-
- Support for DOCX resumes
+Compare multiple resumes at once
+Export results as PDF / CSV reports
+Interactive charts & graphs for ATS scoring
+Support for DOCX resumes
+ 
 
 🤝 Contributing
-
 Contributions are welcome!
-
 Fork the project 🍴
-
 Create a new branch 🌱
-
 Commit your changes 💡
-
 Open a PR 🚀
 
 📜 License
-
-This project is licensed under the MIT License
-.
+This project is licensed under the MIT License.
 
 🔥 With Smart ATS, land your dream job faster by making your resume ATS-friendly!
 
